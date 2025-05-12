@@ -4,7 +4,6 @@ RegisterCommand('id', function()
     showingIDs = true
     ShowPlayerIDs()
 
-    -- Cacher après 10 secondes
     SetTimeout(10000, function()
         showingIDs = false
     end)
